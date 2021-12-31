@@ -9,19 +9,6 @@ body {
   margin: 0 auto;
 }
 
-.container-login {
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  padding: 15px;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 .wrap-login {
   width: 680px;
   background: #fff;
@@ -212,4 +199,18 @@ a:hover {
       width: 100%;
     }
   }
+}
+
+
+.container-login {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
