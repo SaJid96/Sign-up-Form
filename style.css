@@ -199,7 +199,7 @@ a:hover {
   .wrap-login {
     padding: 0 60px;
   }
-/* 
+
   @media (max-width: 576px) {
     .wrap-login {
       padding: 0 30px;
@@ -208,5 +208,5 @@ a:hover {
     .btn-google {
       width: 100%;
     }
-  } */
+  }
 }
