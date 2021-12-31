@@ -176,22 +176,6 @@ a:hover {
 }
 
 
-@media (max-width: 768px) {
-  .wrap-login {
-    padding: 0 60px;
-  }
-
-  @media (max-width: 576px) {
-    .wrap-login {
-      padding: 0 30px;
-    }
-    .btn-face,
-    .btn-google {
-      width: 100%;
-    }
-  }
-}
-
 
 .login-form-btn::before {
   content: "";
@@ -211,4 +195,21 @@ a:hover {
 .login-form-btn:hover:before {
   opacity: 1;
   color: #fff;
+}
+
+
+@media (max-width: 768px) {
+  .wrap-login {
+    padding: 0 60px;
+  }
+
+  @media (max-width: 576px) {
+    .wrap-login {
+      padding: 0 30px;
+    }
+    .btn-face,
+    .btn-google {
+      width: 100%;
+    }
+  }
 }
